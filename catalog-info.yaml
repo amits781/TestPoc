@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Test-Spring-Boot"
+  description: "Test POC"
+  annotations:
+    github.com/project-slug: amits781/TestPoc
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/guests"

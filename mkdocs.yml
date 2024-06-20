@@ -1,0 +1,8 @@
+site_name: "Test-Spring-Boot"
+site_description: "Test POC"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
